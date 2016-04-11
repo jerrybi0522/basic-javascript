@@ -56,3 +56,13 @@
 		// Access item in arrays by position
 		console.log(pair[0][0]);
 		// This will get the first item of the first array
+
+// Objects
+
+	var morning = {eat: 'Breakfast', brush: 'teeth'};
+
+	// Bracket notation
+	console.log(morning['eat']);
+
+	// Dot notation
+	console.log(morning.brush);
