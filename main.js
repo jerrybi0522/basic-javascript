@@ -150,3 +150,14 @@
 	}
 
 	mixedFunction("magic ", 3)
+
+// Problems
+
+	// Problem 1
+	var a = 1;
+	var b = 2;
+	console.log(a + b);
+
+	var c = "This is a ";
+	var d = "volcano!";
+	console.log(c + d);
