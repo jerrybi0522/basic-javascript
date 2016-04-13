@@ -161,3 +161,11 @@
 	var c = "This is a ";
 	var d = "volcano!";
 	console.log(c + d);
+
+	// Problem 3
+	var f = 12;
+	if(f<10){
+		alert("Your variable is less than 10")
+	} else{
+		console.log(x + " is greater than 10")
+	}
