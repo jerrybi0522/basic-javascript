@@ -106,3 +106,24 @@
 		console.log("Don't worry about this")
 	}
 	// Runs else if statement
+
+// Loops
+
+	// For
+	for(var i = 0; i<10; i++){
+		console.log(i)
+	}
+	// Will show number until i is increased to 10
+	vocaloids = ["Miku", "Luka", "Rin", "Len", "Gumi", "IA"]
+	for(var i = 0; i<vocaloids.length; i++){
+		console.log(vocaloids[i])
+	}
+	// Will list all items in array until i is greater than the amount in array
+
+	// While
+	x = 3
+	while(x<10){
+		console.log(x + 7)
+		x++;
+	}
+	// Will print x + 7 until x === 10
