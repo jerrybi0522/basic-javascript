@@ -66,3 +66,25 @@
 
 	// Dot notation
 	console.log(morning.brush);
+
+// Testing
+
+	// Are these true?
+	"string" === "string"
+	>true
+
+	5 === 6
+	>false
+
+	// Are these false?
+	"string" !== "string"
+	>false
+
+	5 !== 6
+	>false
+
+	// If statement
+	if(10>9){
+		console.log("10 is greater than 5")
+	}
+	// Only runs if it's true
