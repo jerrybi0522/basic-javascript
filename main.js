@@ -181,3 +181,14 @@
 	}
 
 	naming("Jerry")
+
+	// Additional problem
+	function chooseADoor(x){
+		if(x===1){
+			console.log("You win one hundred-thousand dollars!")
+		} else if(x===2){
+			console.log("You lose!")
+		} else{
+			console.log("You win a car!")
+		}
+	}
