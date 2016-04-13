@@ -174,3 +174,10 @@
 	var g = "Hello"
 	g === "Goodbye"
 	g === "Hello"
+
+	// Problem 6
+	function naming(yourName){
+		console.log("Your name is " + yourName);
+	}
+
+	naming("Jerry")
