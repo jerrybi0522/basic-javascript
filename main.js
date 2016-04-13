@@ -127,3 +127,15 @@
 		x++;
 	}
 	// Will print x + 7 until x === 10
+
+// Function
+
+	// Saves operations for future use
+	// Takes arguments to use as variables
+
+	function thisIsAFunction(x, y){
+		return x + y;
+	}
+
+	console.log(thisIsAFunction(3, 5));
+	>8
