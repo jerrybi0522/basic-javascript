@@ -85,6 +85,24 @@
 
 	// If statement
 	if(10>9){
-		console.log("10 is greater than 5")
+		console.log("10 is greater than 9")
 	}
 	// Only runs if it's true
+
+	// Else statement
+	if(10<9){
+		console.log("This is impossible")
+	} else{
+		console.log("10 is greater than 9")
+	}
+	// Runs else if false
+
+	// Else if statement
+	if(10<9){
+		console.log("This is impossible")
+	} else if(9===9){
+		console.log("9 is equal to 9")
+	} else{
+		console.log("Don't worry about this")
+	}
+	// Runs else if statement
