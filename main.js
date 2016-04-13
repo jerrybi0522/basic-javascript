@@ -133,9 +133,20 @@
 	// Saves operations for future use
 	// Takes arguments to use as variables
 
-	function thisIsAFunction(x, y){
-		return x + y;
+	function numberFunction(numberone, numbertwo){
+		console.log(numberone + numbertwo);
 	}
 
-	console.log(thisIsAFunction(3, 5));
-	>8
+	numberFunction(3, 5);
+
+	function stringFunction(stringone, stringtwo){
+		console.log(stringone + stringtwo);
+	}
+
+	stringFunction("Hello", " World!");
+
+	function mixedFunction(string, number){
+		console.log(string + number);
+	}
+
+	mixedFunction("magic ", 3)
