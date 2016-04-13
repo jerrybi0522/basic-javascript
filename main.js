@@ -169,3 +169,8 @@
 	} else{
 		console.log(x + " is greater than 10")
 	}
+
+	// Problem 5
+	var g = "Hello"
+	g === "Goodbye"
+	g === "Hello"
